@@ -22,3 +22,6 @@ json_file = 'ListJson.json'
 
 
 3. There are additional user customizable settings for the Plotly chart such as colors, text size, and titles.
+
+![image](https://user-images.githubusercontent.com/66573737/177826679-5fde31c3-584e-4c29-8523-f4644562755f.png)
+
