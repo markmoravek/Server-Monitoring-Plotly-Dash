@@ -6,19 +6,19 @@ Creates a line chart using Plotly in Dash that reads up to the second updates fr
 1. Install the Plotly and Dash libraries before use.
 
 
-2.There are simple customizable settings at the top which are:
+2. There are simple customizable settings at the top which are:
 
-#If there are any datapoints at or above this threshold then those datapoints will turn red along with turning the whole line chart red.
-caution_threshold = 90
+  #If there are any datapoints at or above this threshold then those datapoints will turn red along with turning the whole line chart red.
+  caution_threshold = 90
 
-#This must match the number of items in the list within the json file.
-num_of_datapoints = 30
+  #This must match the number of items in the list within the json file.
+  num_of_datapoints = 30
 
-#How often the dash reads the json file.
-interval_seconds = 2
+  #How often the dash reads the json file.
+  interval_seconds = 2
 
-#json file name.
-json_file = 'ListJson.json'
+  #json file name.
+  json_file = 'ListJson.json'
 
 
 3. There are additional user customizable settings for the Plotly chart such as colors, text size, and titles.
